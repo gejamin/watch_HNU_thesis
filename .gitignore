@@ -1,0 +1,30 @@
+# ===== 运行产物 / 本地状态（不纳入版本控制）=====
+
+# 会话缓存：含 ASP.NET session URL 与 cookie，属凭据类
+.hnu_session.json
+
+# 检查结论与心跳：本机运行状态
+.thesis_state.json
+.watch_heartbeat.json
+
+# 登录频率熔断计数
+.login_guard.json
+
+# 运行日志
+check_thesis.log
+watchdog.log
+
+# 验证码样本与识别中间产物（体积大、可重新生成）
+caps/
+captcha_now.gif
+montage_*.png
+
+# ===== Python =====
+__pycache__/
+*.py[cod]
+
+# ===== 编辑器 / 系统 =====
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
